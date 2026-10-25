@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Roshan Trivedi</title>
+  <desc id="d">Privileged access and identity for 14+ years. Now testing whether AI governance controls actually hold. A seven-step approval path ends with a person deciding.</desc>
+  <rect width="1200" height="300" rx="18" fill="#f7f9ff"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="18" fill="none" stroke="#d5dcec"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="64" y="52" width="72" height="72" rx="18" fill="none" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="100" y="100" text-anchor="middle" font-size="30" font-weight="800" fill="#0b1230" letter-spacing="1">RT</text>
+  <text x="164" y="84" font-size="44" font-weight="800" fill="#0b1230">Roshan Trivedi</text>
+  <text x="164" y="122" font-size="22" fill="#4a5675">Privileged access and identity for 14+ years. Now testing whether</text>
+  <text x="164" y="152" font-size="22" fill="#4a5675">AI governance controls actually hold, with the mistakes left in.</text>
+  <text x="1136" y="84" text-anchor="end" font-size="15" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6d3fe0">13 rounds · 164 cases</text>
+  <line x1="120" y1="232" x2="1080" y2="232" stroke="#d5dcec" stroke-width="2"/>
+  <line x1="120" y1="232" x2="920.0" y2="232" stroke="#0a8fb0" stroke-width="2" stroke-opacity="0.55"/>
+  <line x1="920.0" y1="232" x2="1080" y2="232" stroke="#b7791f" stroke-width="2"/>
+  <circle cx="120.0" cy="232" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="120.0" y="266" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">request</text>
+  <circle cx="280.0" cy="232" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="280.0" y="266" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">identity</text>
+  <circle cx="440.0" cy="232" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="440.0" y="266" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">policy</text>
+  <circle cx="600.0" cy="232" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="600.0" y="266" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">risk</text>
+  <circle cx="760.0" cy="232" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="760.0" y="266" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">scope</text>
+  <circle cx="920.0" cy="232" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <text x="920.0" y="266" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">evidence</text>
+  <circle cx="1080.0" cy="232" r="16" fill="#b7791f" fill-opacity="0.18"/>
+  <circle cx="1080.0" cy="232" r="8" fill="#f7f9ff" stroke="#b7791f" stroke-width="2.5"/>
+  <circle cx="1080.0" cy="232" r="3.5" fill="#b7791f"/>
+  <text x="1080.0" y="266" text-anchor="middle" font-size="17" fill="#b7791f" font-weight="700">a person decides</text>
+  </g>
+</svg>
