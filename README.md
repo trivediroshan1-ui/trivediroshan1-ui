@@ -12,6 +12,11 @@ Credential management platform owner. 14+ years in privileged access, credential
 | **AI Governance Lab** | 13 rounds, 164 cases on made-up data. For every case I write what I expect, hash it (SHA-256) and commit it before the code, run it, then switch each control off to see if a check notices. | [Repository](https://github.com/trivediroshan1-ui/ai-governance-lab) · [Read it, with videos](https://roshantrivedi.co.in/ai-governance-lab/?utm_source=github&utm_medium=profile) · [Every Mac command, with output](https://roshantrivedi.co.in/ai-governance-lab/mac/?utm_source=github&utm_medium=profile) |
 | **MCP human-approval gateway** | A small gateway that holds risky AI-agent tool calls for a person, ties the approval to one exact request, and logs every decision in a hash chain. Synthetic tools only. | [Repository](https://github.com/trivediroshan1-ui/mcp-human-approval-gateway) |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lab-method-dark.svg">
+  <img alt="How every case in the lab is tested: write the guess, hash and commit it, run the cases, switch one control off, check whether a case notices, keep every file." src="assets/lab-method-light.svg" width="100%">
+</picture>
+
 ### Free to read
 
 - **Does AI Governance Hold?** Book, 69 pages. [PDF](https://roshantrivedi.co.in/assets/ai-governance-lab-book.pdf)
