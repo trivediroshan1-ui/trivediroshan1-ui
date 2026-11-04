@@ -52,7 +52,7 @@ I own a credential management platform and have spent 14+ years in privileged ac
 
 ### Also on the site
 
-- [21 case studies](https://roshantrivedi.co.in/case-studies/?utm_source=github&utm_medium=profile) on privileged access, credentials and agent identity
+- [22 case studies](https://roshantrivedi.co.in/case-studies/?utm_source=github&utm_medium=profile) on privileged access, credentials and agent identity
 - [Credential tiering self-check](https://roshantrivedi.co.in/tools/tier-check/?utm_source=github&utm_medium=profile): where would one stolen credential stop? Three minutes, runs in your browser.
 - [Talks and workshops](https://roshantrivedi.co.in/speaking/?utm_source=github&utm_medium=profile) built on the labs
 
