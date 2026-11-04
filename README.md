@@ -34,9 +34,9 @@ I own a credential management platform and have spent 14+ years in privileged ac
 <!-- writing:start -->
 - [I Tested 46 Non-Human Identity Cases. My Guesses Were Wrong in Four.](https://roshantrivedi.co.in/writing/non-human-identity-lab-46-cases/?utm_source=github&utm_medium=profile)<br><sub>03 Nov 2026</sub>
 - [From Permanent Admin Rights to Zero Standing Privilege: A Practical PAM Modernization Path](https://roshantrivedi.co.in/writing/pam-modernization-and-zero-standing-privilege/?utm_source=github&utm_medium=profile)<br><sub>29 Oct 2026</sub>
-- [Do AI Governance Controls Hold? What I Found in 13 Rounds and 164 Cases](https://roshantrivedi.co.in/writing/do-ai-governance-controls-hold/?utm_source=github&utm_medium=profile)<br><sub>29 Oct 2026</sub>
 - [Can a Person Stay in Control of an AI Agent? I Tried to Break an Approval Gate 210 Ways](https://roshantrivedi.co.in/writing/can-a-person-stay-in-control-of-an-ai-agent/?utm_source=github&utm_medium=profile)<br><sub>29 Oct 2026</sub>
-- [A PAM Project Plan for Tier 1, 2 and 3 Organizations](https://roshantrivedi.co.in/writing/pam-project-plan-by-organization-tier/?utm_source=github&utm_medium=profile)<br><sub>10 Oct 2026</sub>
+- [Do AI Governance Controls Hold? What I Found in 13 Rounds and 164 Cases](https://roshantrivedi.co.in/writing/do-ai-governance-controls-hold/?utm_source=github&utm_medium=profile)<br><sub>29 Oct 2026</sub>
+- [PAM as an Identity: What Changes When the Vault Can Talk to Your Governance System](https://roshantrivedi.co.in/writing/pam-as-an-identity/?utm_source=github&utm_medium=profile)<br><sub>10 Oct 2026</sub>
 <!-- writing:end -->
 
 <sub>Refreshed daily from the site's feed.</sub>
