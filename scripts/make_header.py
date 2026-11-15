@@ -6,14 +6,14 @@ THEMES = {
     "light": dict(bg="#f7f9ff", line="#d5dcec", ink="#0b1230", sub="#4a5675", cyan="#0a8fb0", violet="#6d3fe0", green="#0f8a5f", amber="#b7791f", chip="#ffffff"),
 }
 STEPS = ["request", "identity", "policy", "risk", "scope", "evidence"]
-STATS = [("164", "AI governance cases", "violet"), ("46", "machine identity cases", "green"), ("210", "approval gateway checks", "cyan")]
+STATS = [("130", "sign-in and MFA cases", "amber"), ("164", "AI governance cases", "violet"), ("67", "machine identity cases", "green"), ("210", "approval gateway checks", "cyan")]
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
 
 def svg(c):
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">',
          '  <title id="t">Roshan Trivedi</title>',
-         '  <desc id="d">Privileged access and identity for 14+ years. I test whether identity and AI controls hold, in public, with the mistakes left in. 164 AI governance cases, 46 machine identity cases, 210 approval gateway checks. Each request passes six checks and ends with a person deciding.</desc>',
+         '  <desc id="d">Privileged access and identity for 14+ years. I test whether identity and AI controls hold, in public, with the mistakes left in. 130 sign-in and MFA cases, 164 AI governance cases, 67 machine identity cases, 210 approval gateway checks. Each request passes six checks and ends with a person deciding.</desc>',
          f'  <rect width="1200" height="320" rx="18" fill="{c["bg"]}"/>',
          f'  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="{c["line"]}"/>',
          f'  <g font-family="{SANS}">',
@@ -22,12 +22,12 @@ def svg(c):
          f'  <text x="164" y="84" font-size="44" font-weight="800" fill="{c["ink"]}">Roshan Trivedi</text>',
          f'  <text x="164" y="120" font-size="21" fill="{c["sub"]}">Privileged access and identity for 14+ years. I test whether identity</text>',
          f'  <text x="164" y="148" font-size="21" fill="{c["sub"]}">and AI controls hold, in public, with the mistakes left in.</text>']
-    y = 62
+    y = 56
     for num, label, col in STATS:
         o.append(f'  <rect x="880" y="{y-22}" width="256" height="34" rx="10" fill="{c["chip"]}" stroke="{c["line"]}"/>')
         o.append(f'  <text x="896" y="{y}" font-size="18" font-weight="800" font-family="{MONO}" fill="{c[col]}">{num}</text>')
         o.append(f'  <text x="944" y="{y-1}" font-size="14" fill="{c["sub"]}">{label}</text>')
-        y += 42
+        y += 38
     xs = [120 + i * 160 for i in range(7)]
     o.append(f'  <line x1="120" y1="246" x2="1080" y2="246" stroke="{c["line"]}" stroke-width="2"/>')
     o.append(f'  <line x1="120" y1="246" x2="920" y2="246" stroke="{c["cyan"]}" stroke-width="2" stroke-opacity="0.55"/>')

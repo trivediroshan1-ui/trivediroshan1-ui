@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
   <title id="t">Roshan Trivedi</title>
-  <desc id="d">Privileged access and identity for 14+ years. I test whether identity and AI controls hold, in public, with the mistakes left in. 164 AI governance cases, 46 machine identity cases, 210 approval gateway checks. Each request passes six checks and ends with a person deciding.</desc>
+  <desc id="d">Privileged access and identity for 14+ years. I test whether identity and AI controls hold, in public, with the mistakes left in. 130 sign-in and MFA cases, 164 AI governance cases, 67 machine identity cases, 210 approval gateway checks. Each request passes six checks and ends with a person deciding.</desc>
   <rect width="1200" height="320" rx="18" fill="#05061a"/>
   <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#1f2a40"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
@@ -9,15 +9,18 @@
   <text x="164" y="84" font-size="44" font-weight="800" fill="#e8eefc">Roshan Trivedi</text>
   <text x="164" y="120" font-size="21" fill="#a9b6d3">Privileged access and identity for 14+ years. I test whether identity</text>
   <text x="164" y="148" font-size="21" fill="#a9b6d3">and AI controls hold, in public, with the mistakes left in.</text>
-  <rect x="880" y="40" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
-  <text x="896" y="62" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#8b5cf6">164</text>
-  <text x="944" y="61" font-size="14" fill="#a9b6d3">AI governance cases</text>
-  <rect x="880" y="82" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
-  <text x="896" y="104" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#34d399">46</text>
-  <text x="944" y="103" font-size="14" fill="#a9b6d3">machine identity cases</text>
-  <rect x="880" y="124" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
-  <text x="896" y="146" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#4de2ff">210</text>
-  <text x="944" y="145" font-size="14" fill="#a9b6d3">approval gateway checks</text>
+  <rect x="880" y="34" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
+  <text x="896" y="56" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#f7c873">130</text>
+  <text x="944" y="55" font-size="14" fill="#a9b6d3">sign-in and MFA cases</text>
+  <rect x="880" y="72" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
+  <text x="896" y="94" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#8b5cf6">164</text>
+  <text x="944" y="93" font-size="14" fill="#a9b6d3">AI governance cases</text>
+  <rect x="880" y="110" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
+  <text x="896" y="132" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#34d399">67</text>
+  <text x="944" y="131" font-size="14" fill="#a9b6d3">machine identity cases</text>
+  <rect x="880" y="148" width="256" height="34" rx="10" fill="#0b1230" stroke="#1f2a40"/>
+  <text x="896" y="170" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#4de2ff">210</text>
+  <text x="944" y="169" font-size="14" fill="#a9b6d3">approval gateway checks</text>
   <line x1="120" y1="246" x2="1080" y2="246" stroke="#1f2a40" stroke-width="2"/>
   <line x1="120" y1="246" x2="920" y2="246" stroke="#4de2ff" stroke-width="2" stroke-opacity="0.55"/>
   <line x1="920" y1="246" x2="1080" y2="246" stroke="#f7c873" stroke-width="2"/>
