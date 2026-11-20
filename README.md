@@ -35,11 +35,11 @@ Every case from all four labs is in [one filterable list](https://roshantrivedi.
 ### Latest writing
 
 <!-- writing:start -->
+- [Break Glass: Eight Ways to Build It, and What to Do When the Tool Is the Thing That Is Down](https://roshantrivedi.co.in/writing/break-glass-eight-ways/?utm_source=github&utm_medium=profile)<br><sub>20 Nov 2026</sub>
+- [A Break-Glass Architecture, Tested: Six Cases and One Wrong Guess About the Drill](https://roshantrivedi.co.in/writing/break-glass-architecture-tested/?utm_source=github&utm_medium=profile)<br><sub>20 Nov 2026</sub>
 - [I Tested 130 Conditional Access, MFA and AI Agent Cases. Six of My Guesses Were Wrong.](https://roshantrivedi.co.in/writing/130-conditional-access-mfa-and-ai-agent-cases/?utm_source=github&utm_medium=profile)<br><sub>14 Nov 2026</sub>
 - [I Tested 67 Machine Identity Cases. Here Is Where the Controls Stopped.](https://roshantrivedi.co.in/writing/i-tested-67-machine-identity-cases/?utm_source=github&utm_medium=profile)<br><sub>11 Nov 2026</sub>
 - [I Ran the 19 Cases I Had Been Putting Off. Five Guesses Were Wrong.](https://roshantrivedi.co.in/writing/non-human-identity-lab-round-19/?utm_source=github&utm_medium=profile)<br><sub>10 Nov 2026</sub>
-- [I Tested 46 Non-Human Identity Cases. My Guesses Were Wrong in Four.](https://roshantrivedi.co.in/writing/non-human-identity-lab-46-cases/?utm_source=github&utm_medium=profile)<br><sub>03 Nov 2026</sub>
-- [From Permanent Admin Rights to Zero Standing Privilege: A Practical PAM Modernization Path](https://roshantrivedi.co.in/writing/pam-modernization-and-zero-standing-privilege/?utm_source=github&utm_medium=profile)<br><sub>29 Oct 2026</sub>
 <!-- writing:end -->
 
 <sub>Refreshed daily from the site's feed.</sub>
