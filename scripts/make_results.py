@@ -46,6 +46,13 @@ def svg(c):
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">',
          f'  <title id="t">Every lab case, and where my guess was wrong</title>',
          f'  <desc id="d">One mark per case, {total} in all, {wrong} wrong guesses. {desc}.</desc>',
+         ('  <style>'
+          '.row{animation:sweep 1.4s cubic-bezier(.3,.7,.2,1) both}'
+          '@keyframes sweep{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}'
+          '.bad{transform-box:fill-box;transform-origin:50% 100%;animation:pop .5s ease-out both}'
+          '@keyframes pop{0%{transform:scaleY(1)}45%{transform:scaleY(1.3)}100%{transform:scaleY(1)}}'
+          '@media (prefers-reduced-motion: reduce){.row,.bad{animation:none}}'
+          '</style>'),
          f'  <rect width="{W}" height="{H}" rx="18" fill="{c["bg"]}"/>',
          f'  <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="none" stroke="{c["line"]}"/>',
          f'  <g font-family="{SANS}">',
@@ -55,14 +62,17 @@ def svg(c):
         pitch = (X1 - X0) / len(kinds)
         w = max(1.2, min(4, pitch * 0.62))
         o.append(f'  <text x="48" y="{y}" font-size="17" fill="{c["sub"]}">{name}</text>')
+        row_delay = 0.3 + 0.35 * len([1 for o_ in o if 'class="row"' in o_])
+        o.append(f'  <g class="row" style="animation-delay:{row_delay:.2f}s">')
         for i, k in enumerate(kinds):
             x = X0 + i * pitch
             if k == "bad":
-                o.append(f'  <rect x="{x:.1f}" y="{y - TALL + 4}" width="{w:.1f}" height="{TALL}" rx="1" fill="{c["bad"]}"/>')
+                o.append(f'  <rect class="bad" style="animation-delay:{row_delay + 1.4:.2f}s" x="{x:.1f}" y="{y - TALL + 4}" width="{w:.1f}" height="{TALL}" rx="1" fill="{c["bad"]}"/>')
             elif k == "ok":
                 o.append(f'  <rect x="{x:.1f}" y="{y - SHORT + 4}" width="{w:.1f}" height="{SHORT}" rx="1" fill="{c["ok"]}"/>')
             else:
                 o.append(f'  <rect x="{x + .4:.1f}" y="{y - SHORT + 4.4}" width="{max(.8, w - .8):.1f}" height="{SHORT - .8}" rx="1" fill="none" stroke="{c["off"]}" stroke-width=".8"/>')
+        o.append('  </g>')
         o.append(f'  <text x="{W - 48}" y="{y}" text-anchor="end" font-size="15" font-family="{MONO}" fill="{c["sub"]}">{len(kinds)} cases · {kinds.count("bad")} wrong</text>')
         y += 46
     ly = H - 26
