@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-labelledby="t d">
   <title id="t">Every lab case, and where my guess was wrong</title>
   <desc id="d">One mark per case, 361 in all, 19 wrong guesses. Sign-in and MFA: 130 cases, 6 guesses wrong; Machine identity: 67 cases, 10 guesses wrong; AI governance: 164 cases, 3 guesses wrong.</desc>
+  <style>.row{animation:sweep 1.4s cubic-bezier(.3,.7,.2,1) both}@keyframes sweep{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}.bad{transform-box:fill-box;transform-origin:50% 100%;animation:pop .5s ease-out both}@keyframes pop{0%{transform:scaleY(1)}45%{transform:scaleY(1.3)}100%{transform:scaleY(1)}}@media (prefers-reduced-motion: reduce){.row,.bad{animation:none}}</style>
   <rect width="1200" height="270" rx="18" fill="#05061a"/>
   <rect x="0.5" y="0.5" width="1199" height="269" rx="18" fill="none" stroke="#1f2a40"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <text x="48" y="52" font-size="20" font-weight="700" fill="#e8eefc">Every case, and where my guess was wrong</text>
   <text x="48" y="104" font-size="17" fill="#a9b6d3">Sign-in and MFA</text>
+  <g class="row" style="animation-delay:0.30s">
   <rect x="230.0" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="235.5" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="240.9" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
@@ -57,17 +59,17 @@
   <rect x="492.2" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="497.6" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="503.1" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
-  <rect x="508.5" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:1.70s" x="508.5" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
   <rect x="514.0" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="519.5" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="524.9" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="530.4" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
-  <rect x="535.8" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:1.70s" x="535.8" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
   <rect x="541.3" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
-  <rect x="546.8" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
-  <rect x="552.2" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:1.70s" x="546.8" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:1.70s" x="552.2" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
   <rect x="557.7" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
-  <rect x="563.2" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:1.70s" x="563.2" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
   <rect x="568.6" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="574.1" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="579.9" y="96.4" width="2.6" height="11.2" rx="1" fill="none" stroke="#8393aa" stroke-width=".8"/>
@@ -93,7 +95,7 @@
   <rect x="688.8" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="694.2" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="699.7" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
-  <rect x="705.2" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:1.70s" x="705.2" y="78" width="3.4" height="30" rx="1" fill="#fb7185"/>
   <rect x="710.6" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="716.1" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
   <rect x="721.5" y="96" width="3.4" height="12" rx="1" fill="#34d399"/>
@@ -136,8 +138,10 @@
   <rect x="924.0" y="96.4" width="2.6" height="11.2" rx="1" fill="none" stroke="#8393aa" stroke-width=".8"/>
   <rect x="929.5" y="96.4" width="2.6" height="11.2" rx="1" fill="none" stroke="#8393aa" stroke-width=".8"/>
   <rect x="934.9" y="96.4" width="2.6" height="11.2" rx="1" fill="none" stroke="#8393aa" stroke-width=".8"/>
+  </g>
   <text x="1152" y="104" text-anchor="end" font-size="15" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#a9b6d3">130 cases · 6 wrong</text>
   <text x="48" y="150" font-size="17" fill="#a9b6d3">Machine identity</text>
+  <g class="row" style="animation-delay:0.65s">
   <rect x="230.0" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="240.6" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="251.2" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
@@ -161,11 +165,11 @@
   <rect x="441.9" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="452.5" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="463.1" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="473.7" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="473.7" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
   <rect x="484.3" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="494.9" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="505.5" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
-  <rect x="516.1" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="505.5" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="516.1" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
   <rect x="526.7" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="537.3" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="547.9" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
@@ -178,13 +182,13 @@
   <rect x="622.1" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="632.7" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="643.3" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="653.9" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="653.9" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
   <rect x="664.5" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="675.1" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="685.7" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="696.3" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="706.9" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="717.5" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="717.5" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
   <rect x="728.1" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="738.7" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="749.3" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
@@ -194,19 +198,21 @@
   <rect x="791.6" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="802.2" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="812.8" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="823.4" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
-  <rect x="834.0" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="823.4" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="834.0" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
   <rect x="844.6" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="855.2" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="865.8" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="876.4" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="876.4" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
   <rect x="887.0" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="897.6" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
   <rect x="908.2" y="142" width="4.0" height="12" rx="1" fill="#34d399"/>
-  <rect x="918.8" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
-  <rect x="929.4" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="918.8" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.05s" x="929.4" y="124" width="4.0" height="30" rx="1" fill="#fb7185"/>
+  </g>
   <text x="1152" y="150" text-anchor="end" font-size="15" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#a9b6d3">67 cases · 10 wrong</text>
   <text x="48" y="196" font-size="17" fill="#a9b6d3">AI governance</text>
+  <g class="row" style="animation-delay:1.00s">
   <rect x="230.0" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="234.3" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="238.7" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
@@ -222,14 +228,14 @@
   <rect x="282.0" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="286.3" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="290.6" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
-  <rect x="294.9" y="170" width="2.7" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.40s" x="294.9" y="170" width="2.7" height="30" rx="1" fill="#fb7185"/>
   <rect x="299.3" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="303.6" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
-  <rect x="307.9" y="170" width="2.7" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.40s" x="307.9" y="170" width="2.7" height="30" rx="1" fill="#fb7185"/>
   <rect x="312.3" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="316.6" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="320.9" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
-  <rect x="325.2" y="170" width="2.7" height="30" rx="1" fill="#fb7185"/>
+  <rect class="bad" style="animation-delay:2.40s" x="325.2" y="170" width="2.7" height="30" rx="1" fill="#fb7185"/>
   <rect x="329.6" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="333.9" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="338.2" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
@@ -371,6 +377,7 @@
   <rect x="927.0" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="931.3" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
   <rect x="935.7" y="188" width="2.7" height="12" rx="1" fill="#34d399"/>
+  </g>
   <text x="1152" y="196" text-anchor="end" font-size="15" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#a9b6d3">164 cases · 3 wrong</text>
   <rect x="48" y="234" width="4" height="12" rx="1" fill="#34d399"/>
   <text x="60" y="244" font-size="14" fill="#a9b6d3">matched the guess written first</text>

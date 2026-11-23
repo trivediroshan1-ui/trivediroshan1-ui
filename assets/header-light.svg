@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
   <title id="t">Roshan Trivedi</title>
   <desc id="d">Privileged access and identity for 14+ years. I test whether identity and AI controls hold, in public, with the mistakes left in. 130 sign-in and MFA cases, 164 AI governance cases, 67 machine identity cases, 210 approval gateway checks. Each request passes six checks and ends with a person deciding.</desc>
+  <style>.pkt{offset-path:path("M120 246 H1080");offset-rotate:0deg;animation:pkt 4.2s cubic-bezier(.45,0,.3,1) .6s 3 both}@keyframes pkt{0%{offset-distance:0%;opacity:0}6%{opacity:1}88%{offset-distance:100%;opacity:1}100%{offset-distance:100%;opacity:0}}.st{animation:st 4.2s ease-out 3 both}@keyframes st{0%,4%{stroke-width:2.5;r:6}10%{stroke-width:4;r:8}22%,100%{stroke-width:2.5;r:6}}.pd{transform-box:fill-box;transform-origin:center;animation:pd 4.2s ease-out .6s 3 both}@keyframes pd{0%,84%{transform:scale(1);opacity:.18}92%{transform:scale(1.9);opacity:.38}100%{transform:scale(1);opacity:.18}}.chip{animation:chip .6s ease-out both}@keyframes chip{from{opacity:0;transform:translateX(12px)}}@media (prefers-reduced-motion: reduce){.pkt{display:none}.st,.pd,.chip{animation:none}}</style>
   <rect width="1200" height="320" rx="18" fill="#f7f9ff"/>
   <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#d5dcec"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
@@ -9,36 +10,45 @@
   <text x="164" y="84" font-size="44" font-weight="800" fill="#0b1230">Roshan Trivedi</text>
   <text x="164" y="120" font-size="21" fill="#4a5675">Privileged access and identity for 14+ years. I test whether identity</text>
   <text x="164" y="148" font-size="21" fill="#4a5675">and AI controls hold, in public, with the mistakes left in.</text>
+  <g class="chip" style="animation-delay:0.27s">
   <rect x="880" y="34" width="256" height="34" rx="10" fill="#ffffff" stroke="#d5dcec"/>
   <text x="896" y="56" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#b7791f">130</text>
   <text x="944" y="55" font-size="14" fill="#4a5675">sign-in and MFA cases</text>
+  </g>
+  <g class="chip" style="animation-delay:0.39s">
   <rect x="880" y="72" width="256" height="34" rx="10" fill="#ffffff" stroke="#d5dcec"/>
   <text x="896" y="94" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6d3fe0">164</text>
   <text x="944" y="93" font-size="14" fill="#4a5675">AI governance cases</text>
+  </g>
+  <g class="chip" style="animation-delay:0.51s">
   <rect x="880" y="110" width="256" height="34" rx="10" fill="#ffffff" stroke="#d5dcec"/>
   <text x="896" y="132" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#0f8a5f">67</text>
   <text x="944" y="131" font-size="14" fill="#4a5675">machine identity cases</text>
+  </g>
+  <g class="chip" style="animation-delay:0.63s">
   <rect x="880" y="148" width="256" height="34" rx="10" fill="#ffffff" stroke="#d5dcec"/>
   <text x="896" y="170" font-size="18" font-weight="800" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" fill="#0a8fb0">210</text>
   <text x="944" y="169" font-size="14" fill="#4a5675">approval gateway checks</text>
+  </g>
   <line x1="120" y1="246" x2="1080" y2="246" stroke="#d5dcec" stroke-width="2"/>
   <line x1="120" y1="246" x2="920" y2="246" stroke="#0a8fb0" stroke-width="2" stroke-opacity="0.55"/>
   <line x1="920" y1="246" x2="1080" y2="246" stroke="#b7791f" stroke-width="2"/>
-  <circle cx="120" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <circle class="st" style="animation-delay:0.60s" cx="120" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
   <text x="120" y="280" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">request</text>
-  <circle cx="280" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <circle class="st" style="animation-delay:1.22s" cx="280" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
   <text x="280" y="280" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">identity</text>
-  <circle cx="440" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <circle class="st" style="animation-delay:1.83s" cx="440" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
   <text x="440" y="280" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">policy</text>
-  <circle cx="600" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <circle class="st" style="animation-delay:2.45s" cx="600" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
   <text x="600" y="280" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">risk</text>
-  <circle cx="760" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <circle class="st" style="animation-delay:3.07s" cx="760" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
   <text x="760" y="280" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">scope</text>
-  <circle cx="920" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
+  <circle class="st" style="animation-delay:3.68s" cx="920" cy="246" r="6" fill="#f7f9ff" stroke="#0a8fb0" stroke-width="2.5"/>
   <text x="920" y="280" text-anchor="middle" font-size="17" fill="#4a5675" font-weight="500">evidence</text>
-  <circle cx="1080" cy="246" r="16" fill="#b7791f" fill-opacity="0.18"/>
+  <circle class="pd" cx="1080" cy="246" r="16" fill="#b7791f" fill-opacity="0.18"/>
   <circle cx="1080" cy="246" r="8" fill="#f7f9ff" stroke="#b7791f" stroke-width="2.5"/>
   <circle cx="1080" cy="246" r="3.5" fill="#b7791f"/>
   <text x="1080" y="280" text-anchor="middle" font-size="17" fill="#b7791f" font-weight="700">a person decides</text>
+  <circle class="pkt" cx="0" cy="0" r="5.5" fill="#0a8fb0"/>
   </g>
 </svg>
