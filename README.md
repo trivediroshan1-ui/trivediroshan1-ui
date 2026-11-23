@@ -21,6 +21,11 @@ I own a credential management platform and have spent 14+ years in privileged ac
 | **Machine identity lab** | 67 cases on service accounts, API keys, CI tokens, break-glass accounts and AI tools with their own logins | 57 guesses matched and 10 were wrong. In 20 cases a control sat there and nothing noticed it was off. | [Read it](https://roshantrivedi.co.in/nhi-lab/?utm_source=github&utm_medium=profile) · [The book on the web](https://roshantrivedi.co.in/nhi-lab/book/?utm_source=github&utm_medium=profile) |
 | **MCP approval gateway** | A gateway that holds risky AI agent tool calls for a person, ties each approval to one exact request and logs every decision in a hash chain. 210 scripted checks. | The gate held against changed and reused requests. The weak point was me: I approved 40 production deploys in under half a second, with the same reason each time. | [Code](https://github.com/trivediroshan1-ui/mcp-human-approval-gateway) · [Read it](https://roshantrivedi.co.in/mcp-lab/?utm_source=github&utm_medium=profile) |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/results-dark.svg">
+  <img alt="Every lab case as one mark, in order, for the sign-in and MFA, machine identity and AI governance labs. Tall red marks are the cases where my written guess was wrong; the counts for each lab are in the table above. The MCP lab recorded no guesses, so it is not drawn." src="assets/results-light.svg" width="100%">
+</picture>
+
 Every case from all four labs is in [one filterable list](https://roshantrivedi.co.in/labs/cases/?utm_source=github&utm_medium=profile), and the whole site is [searchable](https://roshantrivedi.co.in/search/?utm_source=github&utm_medium=profile).
 
 <picture>

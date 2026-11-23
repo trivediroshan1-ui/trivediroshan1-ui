@@ -1,4 +1,4 @@
-name: Refresh latest writing
+name: Refresh latest writing and lab results
 
 on:
   schedule:
@@ -17,6 +17,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 scripts/update_writing.py
+      - name: Redraw the lab results from the site's case catalogue
+        run: python3 scripts/make_results.py || echo "catalogue not reachable; figure left as it was"
       - name: Commit if the list changed
         run: |
           if git diff --quiet; then echo "nothing to commit"; exit 0; fi
